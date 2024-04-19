@@ -1,0 +1,74 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+#video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media only screen and (max-width: 700px) {
+    #video-background {
+        display: none;
+    }
+}
+
+#main{
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+section{
+    margin: 100px auto;
+    width: 40%;
+    height: 50%;
+    
+}
+section>h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fcb900;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform:uppercase ;
+}
+form{
+    width: 410px;
+    margin: 0 auto;
+}
+#forgot-pass{
+    text-decoration: none;
+    color: whitesmoke;
+    float: right;
+}
+#forgot-pass:hover{
+    border-bottom: 1px solid whitesmoke;
+}
+.form-label{
+    font-size: larger;
+    color: whitesmoke;
+}
+#remember-me-txt{
+    color: whitesmoke;
+}
+
+footer{
+    color: whitesmoke;
+    text-align: center;
+    
+}
